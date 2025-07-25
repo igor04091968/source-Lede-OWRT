@@ -11,7 +11,14 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=uwe5622
+PKG_VERSION:=2024-04-13
 PKG_RELEASE:=1
+
+PKG_SOURCE_PROTO:=git
+PKG_SOURCE_URL:=https://github.com/Ran-Thegoth/uwe5622.git
+PKG_SOURCE_VERSION:=HEAD
+PKG_MIRROR_HASH:=skip
+PKG_SOURCE_SUBDIR:=src
 
 include $(INCLUDE_DIR)/package.mk
 
